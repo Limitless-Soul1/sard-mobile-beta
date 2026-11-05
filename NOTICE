@@ -1,0 +1,84 @@
+Sard (سَرْد)
+Copyright (C) 2026 Sard contributors
+
+Sard's own source code is made available under the Comprehensive Custom Source-Available
+License. It may be viewed, inspected and modified for personal, non-commercial, private
+use only; public redistribution, embedding, commercial use and network exposure are not
+permitted. The full text is in the LICENSE file at the root of this repository.
+
+Sard is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+PURPOSE. See the LICENSE file for the full disclaimer.
+
+The name "Sard" / "سَرْد" and the hoopoe mark are not covered by that licence. They may
+be used to refer to this project, but not to brand a fork or a derived product.
+
+================================================================================
+SCOPE — WHAT THIS LICENCE COVERS
+================================================================================
+
+The licence above covers Sard's own source code only. It does not, and cannot, change
+the terms of the third-party components listed below: each remains governed by the
+licence granted by its own copyright holder, and those terms are not superseded here.
+
+Every component Sard now ships is under permissive terms (MIT, Apache-2.0, SIL OFL 1.1),
+so none of them constrains the licence above.
+
+================================================================================
+THIRD-PARTY COMPONENTS
+================================================================================
+
+1) READING ENGINE
+
+   foliate-js — MIT
+   EPUB parsing, pagination and rendering, running inside the WebView.
+   https://github.com/johnfactotum/foliate-js
+   Vendored at commit 78914aef4466eb960965702401634c2cb348e9b1 (2026-05-01).
+   Location: public/foliate-js/          Licence: public/foliate-js/LICENSE
+   Sard carries local modifications to this copy; see public/foliate-js/VENDOR.txt.
+
+   PDF.js — Apache-2.0
+   PDF rendering. Ships inside the vendored foliate-js engine, which uses it directly.
+   https://github.com/mozilla/pdf.js
+   Location: public/foliate-js/vendor/pdfjs/
+   Bundled font and CMap licences are under that directory: LICENSE_FOXIT,
+   LICENSE_LIBERATION, cmaps/LICENSE.
+
+2) READ-ALOUD
+
+   Sard bundles no speech engine. Read-aloud uses the Microsoft Edge online voices,
+   which are a network service, not a bundled component. Nothing from that service is
+   redistributed here.
+
+3) FONTS — all SIL Open Font License 1.1
+
+   The fonts remain under the OFL; Sard's own licence does not apply to them. Each
+   family's full licence sits beside it in public/fonts/.
+
+   Amiri                 Amiri-Regular.ttf, Amiri-Bold.ttf          OFL-Amiri.txt
+   Noto Naskh Arabic     NotoNaskhArabic.ttf                        OFL-NotoNaskhArabic.txt
+   Aref Ruqaa            ArefRuqaa-Regular.ttf, ArefRuqaa-Bold.ttf  OFL-ArefRuqaa.txt
+   IBM Plex Sans         IBMPlexSans-{Regular,Medium,Bold}.ttf      OFL-IBMPlexSans.txt
+   IBM Plex Sans Arabic  IBMPlexSansArabic-{Regular,SemiBold}.ttf   OFL-IBMPlexSansArabic.txt
+   Literata              Literata.ttf                               OFL-Literata.txt
+   Source Serif 4        SourceSerif4.ttf                           OFL-SourceSerif4.txt
+   Inter                 Inter.ttf                                  OFL-Inter.txt
+
+4) APPLICATION FRAMEWORK AND LIBRARIES
+
+   Rust crates and npm packages are resolved at build time and are not vendored here.
+   The direct dependencies are declared in src-tauri/Cargo.toml and package.json, and
+   the exact resolved versions in src-tauri/Cargo.lock and package-lock.json.
+
+   The principal ones: Tauri (MIT OR Apache-2.0), rusqlite with bundled SQLite
+   (MIT; SQLite itself is public domain), React (MIT), zustand (MIT),
+   html-to-image (MIT), image (MIT OR Apache-2.0), msedge-tts (MIT),
+   rustls (Apache-2.0 OR ISC OR MIT), ureq (MIT OR Apache-2.0),
+   zip (MIT), sha2 (MIT OR Apache-2.0), quick-xml (MIT), serde (MIT OR Apache-2.0).
+
+   All are permissive. Each remains under the terms granted by its own copyright holder,
+   and those terms continue to apply to those components.
+
+================================================================================
+The full text of Sard's licence is in the LICENSE file at the root of this repository.
+Third-party components remain under their own licences, as recorded above.
