@@ -16,6 +16,8 @@
 
 يحتاج التطبيق إلى أندرويد 7 أو أحدث.
 
+قد يعرض Google Play Protect تنبيهاً لأن التطبيق من خارج المتجر ولم يره من قبل. اختر «Scan app» ليفحصه، أو «More details» لبقية الخيارات.
+
 ## التحديث
 
 عند فتح التطبيق يبحث عن نسخة أحدث في الخلفية، وإذا وجدها يعرضها عليك. يمكنك أيضاً البحث بنفسك من **الإعدادات ← حول ← التحقّق من التحديثات**. اضغط «تحديث الآن» ثم وافق على التثبيت، وتبقى مكتبتك كما هي.
@@ -50,6 +52,8 @@ This is a beta: expect bugs and changes between versions, and keep your own copi
 3. Tap Install.
 
 Requires Android 7 or later.
+
+Google Play Protect may show a notice because the app comes from outside the store and it hasn't seen it before. Choose Scan app to have it checked, or More details for the other options.
 
 ## Updates
 
