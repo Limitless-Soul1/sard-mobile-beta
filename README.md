@@ -29,6 +29,8 @@
 - **البحث عن تحديث:** يسأل GitHub عن آخر نسخة، فيرى GitHub عنوان IP الخاص بك.
 - **القراءة الصوتية:** تستخدم أصوات Microsoft Edge، فيُرسل نص ما تستمع إليه إلى تلك الخدمة.
 
+التفاصيل في [سياسة الخصوصية لأندرويد](https://limitless-soul1.github.io/sard-legal/privacy-android.html?lang=ar).
+
 ## المشاكل والملاحظات
 
 افتح [مشكلة جديدة](https://github.com/Limitless-Soul1/sard-mobile-beta/issues) واذكر نوع جوالك ونسخة أندرويد ورقم نسخة سرد، وهو ظاهر في **الإعدادات ← حول**.
@@ -65,6 +67,8 @@ Books and the library work offline. The app uses the network in two cases:
 
 - **Looking for an update:** it asks GitHub for the latest version, so GitHub sees your IP address.
 - **Read-aloud:** it uses the Microsoft Edge online voices, so the text you listen to is sent to that service.
+
+The details are in the [privacy policy for Android](https://limitless-soul1.github.io/sard-legal/privacy-android.html?lang=en).
 
 ## Problems and feedback
 
