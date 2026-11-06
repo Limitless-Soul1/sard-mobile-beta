@@ -14,7 +14,7 @@
 2. افتح الملف من الجوال، واسمح بالتثبيت من هذا المصدر إذا طلب أندرويد ذلك.
 3. اضغط «تثبيت».
 
-يحتاج التطبيق إلى أندرويد 7 أو أحدث.
+يحتاج التطبيق إلى أندرويد 7 أو أحدث، وإلى Android System WebView بإصدار 88 أو أحدث. إذا ظهرت رسالة تطلب إصداراً أحدث، فاضغط الزر فيها أو حدّث Android System WebView من متجر التطبيقات في جوالك.
 
 قد يعرض Google Play Protect تنبيهاً لأن التطبيق من خارج المتجر ولم يره من قبل. اختر «Scan app» ليفحصه، أو «More details» لبقية الخيارات.
 
@@ -53,7 +53,7 @@ This is a beta: expect bugs and changes between versions, and keep your own copi
 2. Open the file on your phone, and allow installs from this source if Android asks.
 3. Tap Install.
 
-Requires Android 7 or later.
+Requires Android 7 or later, with Android System WebView 88 or later. If a message asks for a newer version, tap its button or update Android System WebView from your phone's app store.
 
 Google Play Protect may show a notice because the app comes from outside the store and it hasn't seen it before. Choose Scan app to have it checked, or More details for the other options.
 
